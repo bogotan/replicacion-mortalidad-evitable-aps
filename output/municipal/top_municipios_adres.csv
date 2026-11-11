@@ -1,0 +1,21 @@
+lado,orden,municipio,departamento,mun,oe_hosp,n_hecsap,pob_2025,hosp_por_10k,muertes_csaa75,rme,rme_lo,rme_hi,rme_eb,rme_eb_lo,rme_eb_hi,clase_eb
+alto,1,Supatá,Cundinamarca,25777,4.365,571,5550,1028.8,1,0.1,0.003,0.559,0.536,0.261,0.908,baja
+alto,2,Gama,Cundinamarca,25299,3.752,63,3188,197.6,2,0.355,0.043,1.283,0.758,0.383,1.258,esperada
+alto,3,Susa,Cundinamarca,25779,3.326,100,6595,151.6,9,0.967,0.442,1.836,0.984,0.586,1.482,esperada
+alto,4,Sabaneta,Antioquia,5631,3.123,1319,106652,123.7,92,0.584,0.47,0.716,0.607,0.495,0.731,baja
+alto,5,San Francisco,Cundinamarca,25658,3.038,105,12843,81.8,15,0.688,0.385,1.134,0.782,0.503,1.121,esperada
+alto,6,Tocaima,Cundinamarca,25815,2.939,315,16083,195.9,28,0.951,0.632,1.375,0.963,0.679,1.296,esperada
+alto,7,Junín,Cundinamarca,25372,2.842,81,4976,162.8,5,0.509,0.165,1.187,0.748,0.413,1.182,esperada
+alto,8,La Estrella,Antioquia,5380,2.838,830,83089,99.9,92,0.796,0.642,0.976,0.811,0.661,0.976,baja
+alto,9,La Calera,Cundinamarca,25377,2.798,455,43453,104.7,23,0.403,0.256,0.605,0.487,0.334,0.669,baja
+alto,10,Flandes,Tolima,73275,2.705,366,29121,125.7,60,1.357,1.036,1.747,1.295,1.008,1.617,alta
+bajo,1,Armenia,Antioquia,5059,0.178,180,5310,339.0,10,1.004,0.482,1.847,1.002,0.607,1.495,esperada
+bajo,2,Covarachía,Boyacá,15218,0.27,44,2867,153.5,8,1.504,0.649,2.963,1.182,0.693,1.8,esperada
+bajo,3,San José de la Montaña,Antioquia,5658,0.282,34,4017,84.6,4,0.923,0.251,2.363,0.976,0.525,1.564,esperada
+bajo,4,Yondó,Antioquia,5893,0.298,139,22061,63.0,16,0.76,0.434,1.234,0.834,0.542,1.188,esperada
+bajo,5,Carcasí,Santander,68152,0.304,36,4920,73.2,0,0.0,0.0,0.564,0.589,0.274,1.021,esperada
+bajo,6,San Andrés,Santander,68669,0.373,56,8842,63.3,8,0.542,0.234,1.068,0.72,0.422,1.096,esperada
+bajo,7,Toledo,Antioquia,5819,0.38,90,4824,186.6,4,0.733,0.2,1.877,0.902,0.485,1.446,esperada
+bajo,8,Argelia,Cauca,19050,0.392,87,27672,31.4,14,0.579,0.317,0.972,0.697,0.443,1.006,esperada
+bajo,9,Salgar,Antioquia,5642,0.417,284,18925,150.1,27,1.031,0.679,1.5,1.023,0.718,1.381,esperada
+bajo,10,Anapoima,Cundinamarca,25035,0.418,162,16983,95.4,12,0.447,0.231,0.781,0.59,0.367,0.866,baja

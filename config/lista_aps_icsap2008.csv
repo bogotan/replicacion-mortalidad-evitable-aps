@@ -1,0 +1,20 @@
+id,grupo,nombre,nombre_original,cie10,bloque,nota
+1,1,Enfermedades inmunoprevenibles y condiciones sensibles,Doenças preveníveis por imunização e condições sensíveis,"A33-A37, A95, B05, B06, B16, B26, G00.0, A15-A19, I00-I02, A51-A53, B50-B54, B77",infecciosas,"Tétanos, difteria, tos ferina, fiebre amarilla, sarampión, rubéola, hepatitis B, parotiditis, meningitis por Haemophilus, tuberculosis, fiebre reumática, sífilis (salvo congénita), malaria, ascariasis. La fuente escribe A15.0-A15.3, A15.4-A15.9, A16.0-A16.2, A16.3-A16.9, A17.0, A17.1-A17.9, A18 y A19: juntos cubren A15-A19 completos"
+2,2,Gastroenteritis infecciosas y sus complicaciones,Gastroenterites infecciosas e complicações,"A00-A09, E86",infecciosas,E86 (depleción de volumen) es un código poco específico como causa básica; ver sensibilidad sin códigos poco específicos
+3,3,Anemia ferropénica,Anemia,D50,otras,
+4,4,Deficiencias nutricionales,Deficiências nutricionais,"E40-E46, E50-E64",otras,Desnutrición y carencias de vitaminas y minerales
+5,5,"Infecciones de oído, nariz y garganta","Infecções de ouvido, nariz e garganta","H66, J00-J03, J06, J31",infecciosas,
+6,6,Neumonías bacterianas,Pneumonias bacterianas,"J13, J14, J15.3, J15.4, J15.8, J15.9, J18.1",infecciosas,La lista no incluye J18.9 (neumonía no especificada) ni J18.0 ni J15.0-J15.2: es la decisión de la fuente y se respeta
+7,7,Asma,Asma,"J45, J46",respiratorias,
+8,8,Enfermedades pulmonares,Doenças pulmonares,"J20, J21, J40-J44, J47",respiratorias,"Bronquitis y bronquiolitis agudas, bronquitis crónica, enfisema, EPOC y bronquiectasias"
+9,9,Hipertensión,Hipertensão,"I10, I11",cardiometabolicas,
+10,10,Angina,Angina,I20,cardiometabolicas,
+11,11,Insuficiencia cardíaca,Insuficiência cardíaca,"I50, J81",cardiometabolicas,I50 y J81 son códigos poco específicos como causa básica (Naghavi et al. 2010); ver sensibilidad
+12,12,Enfermedades cerebrovasculares,Doenças cerebrovasculares,"I63-I67, I69, G45, G46",cardiometabolicas,Incluye el infarto cerebral y el ACV no especificado (I63-I64) pero no las hemorragias (I60-I62)
+13,13,Diabetes mellitus,Diabetes melitus,E10-E14,cardiometabolicas,La fuente enumera los cuartos caracteres .0 a .9 de E10-E14: cubren los cinco códigos completos
+14,14,Epilepsias,Epilepsias,"G40, G41",otras,
+15,15,Infección del riñón y de las vías urinarias,Infecção no rim e trato urinário,"N10-N12, N30, N34, N39.0",infecciosas,
+16,16,Infección de la piel y del tejido subcutáneo,Infecção da pele e tecido subcutâneo,"A46, L01-L04, L08",infecciosas,
+17,17,Enfermedad inflamatoria de los órganos pélvicos femeninos,Doença inflamatória órgãos pélvicos femininos,"N70-N73, N75, N76",infecciosas,
+18,18,Úlcera gastrointestinal,Úlcera gastrointestinal,"K25-K28, K92.0-K92.2",otras,
+19,19,Enfermedades relacionadas con el control prenatal y el parto,Doenças relacionadas ao pré-natal e parto,"O23, A50, P35.0",otras,"Infección de vías genitourinarias en el embarazo, sífilis congénita y rubéola congénita. La transcripción consultada escribe «P35.»; se usa P35.0 (rubéola congénita), como Hone et al. (2017)"

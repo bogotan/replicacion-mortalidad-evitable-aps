@@ -1,0 +1,11 @@
+# Licencias de los datos y del texto
+
+- **Código** (`src/`, `scripts/`, `pruebas/`, `manuscrito/armar_entregables.py`, `Makefile`): MIT (`LICENSE`). Incluye, sin cambios, el paquete común de Estadísticas Vitales (`src/eevv_insumos/`, `scripts/insumos_eevv/`) y funciones de los estudios 43 y 54 del Termómetro de las Estadísticas Vitales (`src/aps_evitable/termo.py`, `ocde.py`, `codigos.py`), todos de Daniel A. Garavito Jiménez bajo la misma licencia.
+- **Texto del manuscrito, cuadros y figuras** (`manuscrito/`, `output/`): Creative Commons Atribución-NoComercial 4.0 Internacional (CC BY-NC 4.0), © 2026 Daniel A. Garavito Jiménez; citar a Sinergística con enlace. Si la revista publica el artículo, rige para el texto publicado la licencia de la revista (CC BY-NC-ND 3.0 IGO en la *Revista Panamericana de Salud Pública*).
+- **Documentación de método** (`docs/`, `README.md`, `data/README.md`): Creative Commons Atribución 4.0 Internacional (CC BY 4.0), © 2026 Daniel A. Garavito Jiménez.
+- **Datos derivados** (`data/intermedios/`, `output/parametros/`): CC BY-NC 4.0. Son conteos agregados por año, departamento, sexo, grupo de edad y grupo de causa, sin registros individuales. Cada fuente original se cita así:
+  - Estadísticas Vitales y proyecciones de población: «Fuente: Departamento Administrativo Nacional de Estadística: www.dane.gov.co».
+  - Hospitalizaciones evitables: ADRES, Innovación y Analítica (2026), *Hospitalizaciones evitables por condiciones sensibles a la Atención Primaria (HECSAP) en Colombia*. Las transcripciones de `data/raw/externos/adres/` son cifras agregadas de un documento público, con cita.
+  - DIVIPOLA (DANE, datos.gov.co, CC BY-SA 4.0): solo los nombres de los municipios en `output/municipal/`.
+  - Población estándar de la OCDE 2015: Naciones Unidas, *World Population Prospects 2024* (CC BY 3.0 IGO).
+- **Insumos originales de `data/raw/`**: rigen los términos de cada fuente (`data/raw/MANIFIESTO.csv`, columna `licencia`). Los microdatos del DANE no se redistribuyen: los términos del Archivo Nacional de Datos prohíben ponerlos a disposición de múltiples usuarios sin visto bueno escrito del DANE (`docs/INSUMOS_EEVV.md`). Tampoco se versionan el informe de la ADRES en PDF ni el archivo de *World Population Prospects*; se bajan con `make insumos`.

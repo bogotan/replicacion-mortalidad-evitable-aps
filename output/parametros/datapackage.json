@@ -1,0 +1,204 @@
+{
+ "name": "mortalidad-aps-parametros",
+ "version": "2026.1",
+ "title": "Insumos de mortalidad por edad, sexo, departamento y grupo de causa",
+ "description": "Insumo de mortalidad por causa básica (no por estado de salud) para el simulador de sostenibilidad y Tessella Salud: defunciones registradas, tasas con su intervalo y fracción de cada grupo de causa. El nivel de la mortalidad por todas las causas debe tomarse de las tablas de vida oficiales del DANE, que corrigen la omisión; este archivo da cómo se reparte entre grupos de causa. Grupos de causa según la Lista brasileña de condiciones sensibles a la atención primaria (Portaria SAS/MS 221 de 2008).",
+ "licenses": [
+  {
+   "name": "CC-BY-NC-4.0",
+   "path": "https://creativecommons.org/licenses/by-nc/4.0/"
+  }
+ ],
+ "sources": [
+  {
+   "title": "DANE, Estadísticas Vitales, defunciones no fetales; proyecciones de población"
+  }
+ ],
+ "contributors": [
+  {
+   "title": "Daniel A. Garavito Jiménez",
+   "role": "author"
+  },
+  {
+   "title": "Sinergística",
+   "role": "publisher",
+   "path": "https://sinergistica.com"
+  }
+ ],
+ "resources": [
+  {
+   "name": "mortalidad_aps_parametros",
+   "path": "mortalidad_aps_parametros.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "schema": {
+    "primaryKey": [
+     "anio",
+     "cod_dpto",
+     "sexo",
+     "grupo_edad",
+     "grupo_causa"
+    ],
+    "fields": [
+     {
+      "name": "anio",
+      "type": "integer",
+      "description": "Año de la defunción (1998–2025)",
+      "constraints": {
+       "minimum": 1998,
+       "maximum": 2025
+      }
+     },
+     {
+      "name": "cod_dpto",
+      "type": "integer",
+      "description": "Código DIVIPOLA del departamento de residencia; 0 = Colombia"
+     },
+     {
+      "name": "territorio",
+      "type": "string",
+      "description": "Nombre del departamento o Colombia"
+     },
+     {
+      "name": "sexo",
+      "type": "integer",
+      "description": "1 = hombres, 2 = mujeres",
+      "constraints": {
+       "enum": [
+        1,
+        2
+       ]
+      }
+     },
+     {
+      "name": "grupo_edad",
+      "type": "integer",
+      "description": "Índice del grupo de edad: 0 = menor de 1 año, 1 = 1–4, 2 = 5–9, …, 17 = 80–84, 18 = 85 y más",
+      "constraints": {
+       "minimum": 0,
+       "maximum": 18
+      }
+     },
+     {
+      "name": "edad",
+      "type": "string",
+      "description": "Etiqueta del grupo de edad"
+     },
+     {
+      "name": "grupo_causa",
+      "type": "string",
+      "description": "todas; csaa_cardiometabolicas; csaa_respiratorias; csaa_infecciosas; csaa_otras; no_csaa. Los cuatro csaa_* y no_csaa suman todas. La lista se aplica en todas las edades; el indicador de mortalidad evitable usa 0–74",
+      "constraints": {
+       "enum": [
+        "todas",
+        "csaa_cardiometabolicas",
+        "csaa_respiratorias",
+        "csaa_infecciosas",
+        "csaa_otras",
+        "no_csaa"
+       ]
+      }
+     },
+     {
+      "name": "defunciones",
+      "type": "number",
+      "description": "Defunciones registradas (con la edad desconocida repartida; por eso puede tener decimales)"
+     },
+     {
+      "name": "poblacion",
+      "type": "number",
+      "description": "Población a mitad de año, proyecciones del DANE"
+     },
+     {
+      "name": "mx",
+      "type": "number",
+      "description": "Tasa central de mortalidad: defunciones / población (por persona-año)"
+     },
+     {
+      "name": "mx_ic_inf",
+      "type": "number",
+      "description": "Límite inferior del IC 95 % (gamma, Poisson)"
+     },
+     {
+      "name": "mx_ic_sup",
+      "type": "number",
+      "description": "Límite superior del IC 95 % (gamma, Poisson)"
+     },
+     {
+      "name": "fraccion",
+      "type": "number",
+      "description": "Parte de las defunciones de la celda (año, territorio, sexo, edad) que es del grupo de causa; 1 en todas. Suavizada hacia la composición nacional de la misma celda con un peso de 5 defunciones; en Colombia es la observada. Uso: mx oficial del DANE por fraccion = mx del grupo de causa",
+      "constraints": {
+       "minimum": 0,
+       "maximum": 1
+      }
+     },
+     {
+      "name": "registro",
+      "type": "string",
+      "description": "Completitud del registro de defunciones del territorio según el Termómetro (completo, incompleto, grave); nacional para Colombia. Con registro incompleto o grave, mx subestima la mortalidad; la fraccion es más robusta si la omisión no depende de la causa"
+     }
+    ]
+   }
+  },
+  {
+   "name": "hospitalizaciones_evitables_costo_2025",
+   "path": "hospitalizaciones_evitables_costo_2025.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "sources": [
+    {
+     "title": "ADRES (2026). Hospitalizaciones evitables por condiciones sensibles a la Atención Primaria (HECSAP) en Colombia, cuadro 2. FEV-RIPS 2025",
+     "path": "https://consultorsalud.com/wp-content/uploads/2026/07/Hospitalizaciones_evitables_por_condiciones_sensibles_a_la_Atencion_Primaria.pdf"
+    }
+   ],
+   "schema": {
+    "primaryKey": [
+     "grupo"
+    ],
+    "fields": [
+     {
+      "name": "grupo",
+      "type": "integer",
+      "description": "Grupo de la lista (1–19, Portaria SAS/MS 221 de 2008)"
+     },
+     {
+      "name": "condicion",
+      "type": "string",
+      "description": "Nombre del grupo"
+     },
+     {
+      "name": "bloque",
+      "type": "string",
+      "description": "Bloque del simulador (cardiometabolicas, respiratorias, infecciosas, otras)"
+     },
+     {
+      "name": "hospitalizaciones",
+      "type": "integer",
+      "description": "Hospitalizaciones con diagnóstico principal del grupo, Colombia 2025 (ADRES, FEV-RIPS; regímenes contributivo y subsidiado)"
+     },
+     {
+      "name": "pacientes",
+      "type": "integer",
+      "description": "Pacientes únicos (ADRES); en el grupo 1, suma de los dos grupos de la ADRES, que pueden compartir pacientes"
+     },
+     {
+      "name": "costo_total_mm_cop",
+      "type": "number",
+      "description": "Costo total facturado, miles de millones de pesos corrientes de 2025 (sin episodios de costo cero o negativo)"
+     },
+     {
+      "name": "costo_por_hospitalizacion_millones_cop",
+      "type": "number",
+      "description": "Costo medio por hospitalización, millones de pesos de 2025"
+     },
+     {
+      "name": "muertes_2025",
+      "type": "number",
+      "description": "Defunciones de 2025 con causa básica del grupo, todas las edades (DANE; edad desconocida repartida)"
+     }
+    ]
+   }
+  }
+ ]
+}

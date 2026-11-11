@@ -1,0 +1,20 @@
+grupo,nombre,bloque,hospitalizaciones,pacientes,costo_mm,costo_por_hosp_millones,muertes_2025,muertes_por_mil_hosp
+1,Enfermedades inmunoprevenibles y condiciones sensibles,infecciosas,12203,11609,187.6,15.37,1835.0,150.4
+2,Gastroenteritis infecciosas y sus complicaciones,infecciosas,66869,66098,422.6,6.32,1587.0,23.7
+3,Anemia ferropénica,otras,3621,3402,39.5,10.9,30.0,8.3
+4,Deficiencias nutricionales,otras,8620,8405,226.7,26.3,1959.0,227.3
+5,"Infecciones de oído, nariz y garganta",infecciosas,35702,35364,180.2,5.05,34.0,1.0
+6,Neumonías bacterianas,infecciosas,33209,32845,486.3,14.64,3920.0,118.0
+7,Asma,respiratorias,30618,28744,170.1,5.56,289.0,9.4
+8,Enfermedades pulmonares,respiratorias,93451,89055,915.0,9.79,18000.0,192.6
+9,Hipertensión,cardiometabolicas,36177,34791,464.0,12.83,6455.0,178.4
+10,Angina,cardiometabolicas,20882,20580,284.8,13.64,106.0,5.1
+11,Insuficiencia cardíaca,cardiometabolicas,36018,33332,769.0,21.35,1905.0,52.9
+12,Enfermedades cerebrovasculares,cardiometabolicas,44217,41874,1030.6,23.31,11863.0,268.3
+13,Diabetes mellitus,cardiometabolicas,34308,32319,513.8,14.98,8747.0,255.0
+14,Epilepsias,otras,24527,22529,347.8,14.18,1235.0,50.4
+15,Infección del riñón y de las vías urinarias,infecciosas,128304,124495,1046.7,8.16,3885.0,30.3
+16,Infección de la piel y del tejido subcutáneo,infecciosas,85316,83763,766.5,8.98,1450.0,17.0
+17,Enfermedad inflamatoria de los órganos pélvicos femeninos,infecciosas,12203,11998,51.3,4.21,51.0,4.2
+18,Úlcera gastrointestinal,otras,30975,30331,400.1,12.92,2691.0,86.9
+19,Enfermedades relacionadas con el control prenatal y el parto,otras,10992,10812,57.0,5.19,7.0,0.6

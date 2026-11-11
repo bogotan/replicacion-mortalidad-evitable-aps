@@ -1,0 +1,8 @@
+variante,tasa_colombia,spearman_departamentos
+Causas mal definidas (R00–R99) repartidas entre las naturales,54.39,0.994
+"Sin códigos poco específicos (I50, J81, E86)",51.8,0.993
+Corte en 70 años,36.08,0.973
+Todas las neumonías (J12–J18),59.41,0.975
+"Ampliación operativa de la ADRES (I12, I13, I15, N39)",55.96,0.992
+Escenario con la omisión implícita del DANE,72.03,0.801
+Mortalidad tratable OCDE/Eurostat,94.03,0.785

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Si usa este código o estos datos, cite el artículo y el repositorio."
+title: "Mortalidad por condiciones sensibles a la atención primaria en Colombia, 1998–2025: tendencia, territorios y hospitalizaciones (código y datos de replicación)"
+authors:
+  - family-names: "Garavito Jiménez"
+    given-names: "Daniel A."
+    affiliation: "Sinergística S.A.S., Bogotá, Colombia"
+    orcid: "https://orcid.org/0009-0009-6871-5807"
+    email: "dagaravitoj@gmail.com"
+date-released: 2026-11-05
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/bogotan/replicacion-mortalidad-evitable-aps"
+keywords:
+  - atención primaria de salud
+  - condiciones sensibles a la atención ambulatoria
+  - mortalidad prematura
+  - hospitalizaciones evitables
+  - estadísticas vitales
+  - Colombia
+preferred-citation:
+  type: article
+  title: "Mortalidad por condiciones sensibles a la atención primaria en Colombia, 1998–2025: tendencia, territorios y hospitalizaciones"
+  authors:
+    - family-names: "Garavito Jiménez"
+      given-names: "Daniel A."
+  journal: "Revista Panamericana de Salud Pública (manuscrito enviado)"
+  year: 2026

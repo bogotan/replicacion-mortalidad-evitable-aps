@@ -1,0 +1,21 @@
+lado,orden,municipio,departamento,cod_dpto,n_hecsap,oe,oe_ic_inf,oe_ic_sup
+alto,1,Supatá,Cundinamarca,25,571,4.365,4.014,4.738
+alto,2,Gama,Cundinamarca,25,63,3.752,2.883,4.801
+alto,3,Susa,Cundinamarca,25,100,3.326,2.706,4.045
+alto,4,Sabaneta,Antioquia,5,1319,3.123,2.957,3.297
+alto,5,San Francisco,Cundinamarca,25,105,3.038,2.485,3.678
+alto,6,Tocaima,Cundinamarca,25,315,2.939,2.623,3.282
+alto,7,Junín,Cundinamarca,25,81,2.842,2.257,3.532
+alto,8,La Estrella,Antioquia,5,830,2.838,2.648,3.038
+alto,9,La Calera,Cundinamarca,25,455,2.798,2.547,3.067
+alto,10,Flandes,Tolima,73,366,2.705,2.435,2.997
+bajo,1,Armenia,Antioquia,5,180,0.178,0.153,0.206
+bajo,2,Covarachía,Boyacá,15,44,0.270,0.196,0.362
+bajo,3,San José de la Montaña,Antioquia,5,34,0.282,0.195,0.394
+bajo,4,Yondó,Antioquia,5,139,0.298,0.250,0.351
+bajo,5,Carcasí,Santander,68,36,0.304,0.213,0.421
+bajo,6,San Andrés,Santander,68,56,0.373,0.281,0.484
+bajo,7,Toledo,Antioquia,5,90,0.380,0.305,0.467
+bajo,8,Argelia,Cauca,19,87,0.392,0.314,0.484
+bajo,9,Salgar,Antioquia,5,284,0.417,0.370,0.469
+bajo,10,Anapoima,Cundinamarca,25,162,0.418,0.356,0.488

@@ -1,0 +1,158 @@
+{
+ "dep_grave_en_focos": [
+  "La Guajira",
+  "Chocó",
+  "Guainía",
+  "Vichada",
+  "Amazonas",
+  "Vaupés"
+ ],
+ "departamentos": {
+  "foco intensivo": 4,
+  "foco por riesgo": 7,
+  "foco por volumen": 5,
+  "vigilancia": 17
+ },
+ "exceso_en_focos": 1829.7,
+ "exceso_positivo_total": 2589.5,
+ "municipios": {
+  "foco intensivo": 39,
+  "foco por riesgo": 68,
+  "foco por volumen": 5,
+  "vigilancia": 1010
+ },
+ "n_focos": 44,
+ "pct_exceso_en_focos": 70.7,
+ "pob_focos_pct": 28.3,
+ "sensibilidad_umbrales_municipios": {
+  "1.25_10": {
+   "foco intensivo": 39,
+   "foco por riesgo": 68,
+   "foco por volumen": 5,
+   "vigilancia": 1010
+  },
+  "1.25_20": {
+   "foco intensivo": 19,
+   "foco por riesgo": 88,
+   "foco por volumen": 5,
+   "vigilancia": 1010
+  },
+  "1.25_5": {
+   "foco intensivo": 67,
+   "foco por riesgo": 40,
+   "foco por volumen": 10,
+   "vigilancia": 1005
+  },
+  "1.2_10": {
+   "foco intensivo": 39,
+   "foco por riesgo": 72,
+   "foco por volumen": 5,
+   "vigilancia": 1006
+  },
+  "1.2_20": {
+   "foco intensivo": 19,
+   "foco por riesgo": 92,
+   "foco por volumen": 5,
+   "vigilancia": 1006
+  },
+  "1.2_5": {
+   "foco intensivo": 71,
+   "foco por riesgo": 40,
+   "foco por volumen": 6,
+   "vigilancia": 1005
+  },
+  "1.3_10": {
+   "foco intensivo": 36,
+   "foco por riesgo": 62,
+   "foco por volumen": 8,
+   "vigilancia": 1016
+  },
+  "1.3_20": {
+   "foco intensivo": 16,
+   "foco por riesgo": 82,
+   "foco por volumen": 8,
+   "vigilancia": 1016
+  },
+  "1.3_5": {
+   "foco intensivo": 61,
+   "foco por riesgo": 37,
+   "foco por volumen": 16,
+   "vigilancia": 1008
+  }
+ },
+ "top10": [
+  {
+   "cod_dpto": 8,
+   "cuadrante": "foco intensivo",
+   "exceso_anual": 200.86,
+   "municipio": "Barranquilla",
+   "rme_eb": 1.359
+  },
+  {
+   "cod_dpto": 5,
+   "cuadrante": "foco por volumen",
+   "exceso_anual": 138.81,
+   "municipio": "Medellín",
+   "rme_eb": 1.114
+  },
+  {
+   "cod_dpto": 13,
+   "cuadrante": "foco intensivo",
+   "exceso_anual": 136.34,
+   "municipio": "Cartagena de Indias",
+   "rme_eb": 1.336
+  },
+  {
+   "cod_dpto": 54,
+   "cuadrante": "foco intensivo",
+   "exceso_anual": 110.47,
+   "municipio": "San José de Cúcuta",
+   "rme_eb": 1.347
+  },
+  {
+   "cod_dpto": 50,
+   "cuadrante": "foco intensivo",
+   "exceso_anual": 102.67,
+   "municipio": "Villavicencio",
+   "rme_eb": 1.445
+  },
+  {
+   "cod_dpto": 76,
+   "cuadrante": "foco por volumen",
+   "exceso_anual": 92.31,
+   "municipio": "Santiago de Cali",
+   "rme_eb": 1.081
+  },
+  {
+   "cod_dpto": 47,
+   "cuadrante": "foco intensivo",
+   "exceso_anual": 92.28,
+   "municipio": "Santa Marta",
+   "rme_eb": 1.46
+  },
+  {
+   "cod_dpto": 76,
+   "cuadrante": "foco intensivo",
+   "exceso_anual": 91.8,
+   "municipio": "Buenaventura",
+   "rme_eb": 1.912
+  },
+  {
+   "cod_dpto": 44,
+   "cuadrante": "foco intensivo",
+   "exceso_anual": 67.21,
+   "municipio": "Riohacha",
+   "rme_eb": 2.207
+  },
+  {
+   "cod_dpto": 44,
+   "cuadrante": "foco intensivo",
+   "exceso_anual": 64.16,
+   "municipio": "Maicao",
+   "rme_eb": 2.17
+  }
+ ],
+ "umbral_carga_dep": 100,
+ "umbral_carga_mun": 10,
+ "umbral_riesgo": 1.25
+}

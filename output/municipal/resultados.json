@@ -1,0 +1,63 @@
+{
+ "adres_n_alto": 534,
+ "adres_n_bajo": 146,
+ "adres_n_mun": 1090,
+ "concentracion": {
+  "media_peso_hosp": 54.3,
+  "media_peso_muertes": 46.5,
+  "media_peso_pob": 42.3,
+  "n": 32,
+  "n_hosp_mayor_que_muertes": 27,
+  "spearman_brecha_vs_rme_sobre_reh": -0.334
+ },
+ "hosp_por_municipio": 667.0,
+ "muertes_por_municipio": 58.5,
+ "municipios": 1122,
+ "municipios_10": 741,
+ "n_alta": 138,
+ "n_alta_eb": 117,
+ "n_baja": 81,
+ "n_baja_eb": 91,
+ "pct_alta": 18.6,
+ "pct_baja": 10.9,
+ "periodo": "2023–2025",
+ "prior": {
+  "a": 9.36,
+  "b": 9.36,
+  "m": 1.0,
+  "varianza": 0.1068
+ },
+ "rme_cruda_p05_p95": [
+  0.364,
+  1.762
+ ],
+ "rme_eb_p05_p95": [
+  0.644,
+  1.493
+ ],
+ "spearman_dpto": {
+  "n_departamentos": 27,
+  "pct_alta_eb_vs_adres_pct_alto": 0.064,
+  "pct_alta_vs_adres_pct_alto": -0.031,
+  "pct_alta_vs_adres_pct_alto_ic": [
+   -0.41,
+   0.35
+  ],
+  "rme_dpto_vs_adres_oe": -0.082,
+  "rme_dpto_vs_adres_oe_ic": [
+   -0.45,
+   0.31
+  ]
+ },
+ "top": {
+  "alto_hosp_10k_mediana": 138.65,
+  "alto_n_mortalidad_alta": 1,
+  "alto_n_mortalidad_baja": 4,
+  "alto_rme_eb_mediana": 0.77,
+  "bajo_hosp_10k_mediana": 90.0,
+  "bajo_n_hosp_sobre_nacional": 4,
+  "bajo_n_mortalidad_alta": 0,
+  "bajo_rme_eb_mediana": 0.868,
+  "tasa_nacional_hosp_10k": 141.0
+ }
+}

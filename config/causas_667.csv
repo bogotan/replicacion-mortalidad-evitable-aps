@@ -1,0 +1,69 @@
+c667,etiqueta,grupo
+0,"Síntomas, signos y estados morbosos mal definidos",mal_definidas
+101,Enfermedades infecciosas intestinales,transmisibles
+102,Tuberculosis,transmisibles
+103,Enf. transmitidas por vectores y rabia,transmisibles
+104,Hepatitis viral y otras enf. inmunoprevenibles,transmisibles
+105,Meningitis,transmisibles
+106,Septicemia (excepto neonatal),transmisibles
+107,VIH / SIDA,transmisibles
+108,Infecciones respiratorias agudas (neumonía),transmisibles
+109,COVID-19,transmisibles
+201,Tumor maligno del estómago,neoplasias
+202,Tumor maligno del colon y de la unión rectosigmoidea,neoplasias
+203,"Tumor maligno de órganos digestivos, excepto estómago y colon",neoplasias
+204,"Tumor maligno de tráquea, bronquios y pulmón",neoplasias
+205,Tumor maligno de laringe y otros respiratorios,neoplasias
+206,Tumor maligno de la mama,neoplasias
+207,Tumor maligno del cuello del útero,neoplasias
+208,Tumor maligno del cuerpo del útero,neoplasias
+209,"Tumor maligno del útero, parte no especificada",neoplasias
+210,Tumor maligno de la próstata,neoplasias
+211,Tumor maligno de otros órganos genitourinarios,neoplasias
+212,Leucemia,neoplasias
+213,Linfomas y mieloma múltiple,neoplasias
+214,Tumor maligno de otras localizaciones y no especificadas,neoplasias
+215,"Tumores in situ, benignos y de comportamiento incierto",neoplasias
+301,Fiebre y enfermedad reumática del corazón,circulatorio
+302,Enfermedades hipertensivas,circulatorio
+303,Enfermedades isquémicas del corazón,circulatorio
+304,"Arritmias, embolia pulmonar y otras cardiopatías",circulatorio
+305,Paro cardíaco,circulatorio
+306,Insuficiencia cardíaca,circulatorio
+307,Enfermedades cerebrovasculares,circulatorio
+308,Aterosclerosis,circulatorio
+309,Otras enfermedades del sistema circulatorio,circulatorio
+401,Feto/RN afectado por factores maternos,perinatales
+402,"Complicaciones placenta, cordón y membranas",perinatales
+403,Prematuridad y bajo peso al nacer,perinatales
+404,Dificultad respiratoria del recién nacido,perinatales
+405,Sepsis bacteriana del recién nacido,perinatales
+406,Otras afecciones del periodo perinatal,perinatales
+501,Accidentes de transporte terrestre,causas_externas
+502,Otros accidentes de transporte,causas_externas
+503,Caídas,causas_externas
+504,Disparo accidental de arma,causas_externas
+505,Ahogamiento y sumersión accidentales,causas_externas
+506,Obstrucción de la respiración,causas_externas
+507,Exposición a corriente eléctrica,causas_externas
+508,"Exposición al humo, fuego y llamas",causas_externas
+509,Envenenamiento accidental,causas_externas
+510,Otros accidentes y efectos no especificados,causas_externas
+511,Lesiones autoinfligidas (suicidio),causas_externas
+512,Agresiones (homicidios),causas_externas
+513,Eventos de intención no determinada,causas_externas
+514,Secuelas y complicaciones de causas externas,causas_externas
+601,Diabetes mellitus,demas
+602,Deficiencias nutricionales y anemias,demas
+603,Trastornos mentales y del comportamiento (demencia),demas
+604,"Enf. del sistema nervioso (Alzheimer, Parkinson)",demas
+605,Enf. crónicas de vías respiratorias inferiores (EPOC),demas
+606,Otras enfermedades del sistema respiratorio,demas
+607,"Apendicitis, hernia y obstrucción intestinal",demas
+608,Cirrosis y otras enfermedades del hígado,demas
+609,Otras enfermedades del sistema digestivo,demas
+610,Enfermedades del sistema urinario (renal),demas
+611,Hiperplasia de la próstata,demas
+612,"Embarazo, parto y puerperio (mortalidad materna)",demas
+613,Malformaciones congénitas,demas
+614,Todas las demás enfermedades,demas

@@ -1,0 +1,69 @@
+c667,def_menores75_2015_2025,def_csaa,def_tratable_ocde,pct_csaa,pct_tratable_ocde,etiqueta
+0,22941,0,0.0,0.0,0.0,"Síntomas, signos y estados morbosos mal definidos"
+101,5690,5690,0.0,100.0,0.0,Enfermedades infecciosas intestinales
+102,10112,10112,5056.0,100.0,50.0,Tuberculosis
+103,3389,314,0.0,9.3,0.0,Enf. transmitidas por vectores y rabia
+104,709,292,0.0,41.2,0.0,Hepatitis viral y otras enf. inmunoprevenibles
+105,2433,29,2038.0,1.2,83.8,Meningitis
+106,5602,0,5592.0,0.0,99.8,Septicemia (excepto neonatal)
+107,25895,0,0.0,0.0,0.0,VIH / SIDA
+108,47811,11750,46683.0,24.6,97.6,Infecciones respiratorias agudas (neumonía)
+109,102608,507,334.5,0.5,0.3,Resto de ciertas enfermedades infecciosas y parasitarias (incluye COVID-19 desde 2020)
+201,38209,0,0.0,0.0,0.0,Tumor maligno del estómago
+202,22038,0,22038.0,0.0,100.0,Tumor maligno del colon y de la unión rectosigmoidea
+203,52304,0,7889.0,0.0,15.1,"Tumor maligno de órganos digestivos, excepto estómago y colon"
+204,30831,0,0.0,0.0,0.0,"Tumor maligno de tráquea, bronquios y pulmón"
+205,4473,0,0.0,0.0,0.0,Tumor maligno de laringe y otros respiratorios
+206,29855,0,29855.0,0.0,100.0,Tumor maligno de la mama
+207,16053,0,8026.5,0.0,50.0,Tumor maligno del cuello del útero
+208,3561,0,3561.0,0.0,100.0,Tumor maligno del cuerpo del útero
+209,2512,0,2512.0,0.0,100.0,"Tumor maligno del útero, parte no especificada"
+210,12925,0,0.0,0.0,0.0,Tumor maligno de la próstata
+211,21969,0,1538.0,0.0,7.0,Tumor maligno de otros órganos genitourinarios
+212,15889,0,6185.0,0.0,38.9,Leucemia
+213,18926,0,1618.0,0.0,8.5,Linfomas y mieloma múltiple
+214,49695,0,3139.0,0.0,6.3,Tumor maligno de otras localizaciones y no especificadas
+215,22615,0,2023.0,0.0,8.9,"Tumores in situ, benignos y de comportamiento incierto"
+301,451,55,451.0,12.2,100.0,Fiebre y enfermedad reumática del corazón
+302,30855,20097,15427.5,65.1,50.0,Enfermedades hipertensivas
+303,177395,622,88697.5,0.4,50.0,Enfermedades isquémicas del corazón
+304,31060,0,4514.0,0.0,14.5,"Arritmias, embolia pulmonar y otras cardiopatías"
+305,1,0,0.0,0.0,0.0,Paro cardíaco
+306,7606,7606,0.0,100.0,0.0,Insuficiencia cardíaca
+307,73847,39577,36923.5,53.6,50.0,Enfermedades cerebrovasculares
+308,292,0,146.0,0.0,50.0,Aterosclerosis
+309,16085,0,6915.5,0.0,43.0,Otras enfermedades del sistema circulatorio
+401,1629,0,1629.0,0.0,100.0,Feto/RN afectado por factores maternos
+402,3378,0,3378.0,0.0,100.0,"Complicaciones placenta, cordón y membranas"
+403,1829,0,1829.0,0.0,100.0,Prematuridad y bajo peso al nacer
+404,15374,0,15374.0,0.0,100.0,Dificultad respiratoria del recién nacido
+405,6768,0,6768.0,0.0,100.0,Sepsis bacteriana del recién nacido
+406,9397,13,9397.0,0.1,100.0,Otras afecciones del periodo perinatal
+501,78709,0,0.0,0.0,0.0,Accidentes de transporte terrestre
+502,863,0,0.0,0.0,0.0,Otros accidentes de transporte
+503,9649,0,0.0,0.0,0.0,Caídas
+504,327,0,0.0,0.0,0.0,Disparo accidental de arma
+505,8185,0,0.0,0.0,0.0,Ahogamiento y sumersión accidentales
+506,3046,0,0.0,0.0,0.0,Obstrucción de la respiración
+507,2579,0,0.0,0.0,0.0,Exposición a corriente eléctrica
+508,1083,0,0.0,0.0,0.0,"Exposición al humo, fuego y llamas"
+509,2887,0,0.0,0.0,0.0,Envenenamiento accidental
+510,12243,0,2317.0,0.0,18.9,Otros accidentes y efectos no especificados
+511,30122,0,0.0,0.0,0.0,Lesiones autoinfligidas (suicidio)
+512,145581,0,0.0,0.0,0.0,Agresiones (homicidios)
+513,16640,0,0.0,0.0,0.0,Eventos de intención no determinada
+514,1821,0,0.0,0.0,0.0,Secuelas y complicaciones de causas externas
+601,46970,46970,23485.0,100.0,50.0,Diabetes mellitus
+602,9288,8920,0.0,96.0,0.0,Deficiencias nutricionales y anemias
+603,3082,0,0.0,0.0,0.0,Trastornos mentales y del comportamiento (demencia)
+604,33862,8212,8199.0,24.3,24.2,"Enf. del sistema nervioso (Alzheimer, Parkinson)"
+605,39476,39476,2240.0,100.0,5.7,Enf. crónicas de vías respiratorias inferiores (EPOC)
+606,17344,654,4467.5,3.8,25.8,Otras enfermedades del sistema respiratorio
+607,10076,0,4297.0,0.0,42.6,"Apendicitis, hernia y obstrucción intestinal"
+608,21816,0,0.0,0.0,0.0,Cirrosis y otras enfermedades del hígado
+609,39115,8174,14854.0,20.9,38.0,Otras enfermedades del sistema digestivo
+610,27840,9021,18009.0,32.4,64.7,Enfermedades del sistema urinario (renal)
+611,1089,0,1089.0,0.0,100.0,Hiperplasia de la próstata
+612,5442,27,5442.0,0.5,100.0,"Embarazo, parto y puerperio (mortalidad materna)"
+613,24354,0,11955.0,0.0,49.1,Malformaciones congénitas
+614,40228,4826,2767.0,12.0,6.9,Todas las demás enfermedades

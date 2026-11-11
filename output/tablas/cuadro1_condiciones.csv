@@ -1,0 +1,20 @@
+grupo,condicion,bloque,muertes_menores75_anual,tasa_estandarizada,ic_inf,ic_sup,avpp_anual,hospitalizaciones_2025,costo_por_hosp_millones,muertes_2025_todas_edades,muertes_por_mil_hosp
+13,Diabetes mellitus,cardiometabolicas,4134.0,10.17,9.99,10.35,118664.0,34308,14.98,8747.0,255.0
+12,Enfermedades cerebrovasculares,cardiometabolicas,3974.0,9.93,9.76,10.12,107812.0,44217,23.31,11863.0,268.3
+8,Enfermedades pulmonares,respiratorias,3804.0,9.71,9.53,9.89,95949.0,93451,9.79,18000.0,192.6
+9,Hipertensión,cardiometabolicas,1639.0,4.13,4.01,4.24,43071.0,36177,12.83,6455.0,178.4
+6,Neumonías bacterianas,infecciosas,1341.0,3.18,3.08,3.28,44535.0,33209,14.64,3920.0,118.0
+1,Enfermedades inmunoprevenibles y condiciones sensibles,infecciosas,1329.0,2.88,2.79,2.98,54116.0,12203,15.37,1835.0,150.4
+15,Infección del riñón y de las vías urinarias,infecciosas,1020.0,2.51,2.42,2.6,29783.0,128304,8.16,3885.0,30.3
+14,Epilepsias,otras,944.0,1.95,1.88,2.02,43469.0,24527,14.18,1235.0,50.4
+18,Úlcera gastrointestinal,otras,868.0,2.12,2.04,2.2,25642.0,30975,12.92,2691.0,86.9
+4,Deficiencias nutricionales,otras,817.0,1.72,1.66,1.8,40977.0,8620,26.3,1959.0,227.3
+2,Gastroenteritis infecciosas y sus complicaciones,infecciosas,701.0,1.54,1.47,1.61,31578.0,66869,6.32,1587.0,23.7
+11,Insuficiencia cardíaca,cardiometabolicas,639.0,1.56,1.49,1.64,18784.0,36018,21.35,1905.0,52.9
+16,Infección de la piel y del tejido subcutáneo,infecciosas,522.0,1.24,1.18,1.3,16917.0,85316,8.98,1450.0,17.0
+7,Asma,respiratorias,215.0,0.46,0.42,0.5,9208.0,30618,5.56,289.0,9.4
+10,Angina,cardiometabolicas,46.0,0.12,0.1,0.14,1260.0,20882,13.64,106.0,5.1
+17,Enfermedad inflamatoria de los órganos pélvicos femeninos,infecciosas,43.0,0.1,0.08,0.12,1561.0,12203,4.21,51.0,4.2
+5,"Infecciones de oído, nariz y garganta",infecciosas,23.0,0.05,0.04,0.06,1116.0,35702,5.05,34.0,1.0
+19,Enfermedades relacionadas con el control prenatal y el parto,otras,16.0,0.02,0.02,0.03,1308.0,10992,5.19,7.0,0.6
+3,Anemia ferropénica,otras,7.0,0.02,0.01,0.02,262.0,3621,10.9,30.0,8.3

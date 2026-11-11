@@ -1,0 +1,20 @@
+# Insumos crudos que no se redistribuyen (docs/INSUMOS.md): solo se versionan el manifiesto y las transcripciones de
+# la ADRES con su FUENTE.md
+data/raw/*
+!data/raw/MANIFIESTO.csv
+!data/raw/externos/
+data/raw/externos/*
+!data/raw/externos/adres/
+!data/raw/externos/divipola/
+data/raw/externos/adres/*.pdf
+# Bases con un registro por evento y cachés: se reconstruyen con los scripts (nivel B)
+data/processed
+data/interim/
+# Cachés de Python y pruebas
+__pycache__/
+*.pyc
+.pytest_cache/
+*.part
+# Registros de corridas locales
+tiempos_*.tsv
+log_*.txt
