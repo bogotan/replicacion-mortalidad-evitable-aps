@@ -4,6 +4,18 @@ Repositorio de replicación del artículo A5. Autor: Daniel A. Garavito Jiménez
 
 **Estado.** Artículo de Daniel A. Garavito Jiménez (Sinergística S.A.S., ORCID 0009-0009-6871-5807), enviado a la *Revista Panamericana de Salud Pública* en noviembre de 2026. El texto del artículo y sus entregables se agregan a este repositorio cuando se publique; mientras tanto, el código, los agregados y las pruebas reproducen todas las cifras. En la preparación se usó Claude (Anthropic) como asistente de código y redacción, bajo la dirección y revisión del autor; los registros de `docs/REVISION.md` son revisiones simuladas por esa misma herramienta, no arbitraje externo.
 
+## Contribuciones
+
+**Daniel A. Garavito Jiménez** (autor):
+
+- definió la pregunta del artículo y eligió la revista;
+- escogió las fuentes y aprobó el diseño: unidad de análisis, tratamiento o escenarios, especificaciones e inferencia;
+- tomó las decisiones de privacidad y de licencia: no publicar celdas de 1 a 4 en cruces sensibles y licenciar por capa (código, método, datos y texto);
+- aportó su conocimiento del sistema de salud y de las estadísticas públicas de Colombia, buena parte de él adquirido como asesor de Innovación y Analítica de la ADRES;
+- revisó los resultados, ordenó las correcciones y responde por todo el contenido.
+
+**Claude (Anthropic)**, herramienta de inteligencia artificial usada bajo su dirección: escribió y depuró el código, ejecutó los análisis, produjo cuadros y figuras, redactó borradores de la documentación y simuló revisiones de árbitro. No figura como autor.
+
 ## Contenido
 
 1. Pregunta y hallazgos
